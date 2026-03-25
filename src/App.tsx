@@ -92,12 +92,13 @@ export default function App() {
           </div>
           <div className="flex items-center gap-4">
             <motion.button 
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="brutal-button text-sm uppercase tracking-widest"
-            >
-              Resume
-            </motion.button>
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  onClick={() => window.open("https://drive.google.com/file/d/15YonOwR7Shk7iES-G6TvsT9LhN-wQEUP/view?usp=drive_link", "_blank")}
+  className="brutal-button text-sm uppercase tracking-widest"
+>
+  Resume
+</motion.button>
           </div>
         </div>
       </nav>
